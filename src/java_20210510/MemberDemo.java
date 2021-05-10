@@ -2,12 +2,7 @@ package java_20210510;
 
 public class MemberDemo {
 	public static void print(Member m) {
-		String name;
-		String email;
-		String zipcode;
-		String addr1;
-		String addr2;
-		int age;
+
 
 		System.out.println(m.getName());
 		System.out.println(m.getEmail());
@@ -26,5 +21,6 @@ public class MemberDemo {
 		m.setAddr2("서초");
 		m.setAge(26);
 		print(m);
+
 	}
 }
