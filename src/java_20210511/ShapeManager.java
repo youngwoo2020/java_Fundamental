@@ -10,7 +10,7 @@ public class ShapeManager {
 		if (single == null) {
 			single = new ShapeManager();
 		}
-		return single;
+		return single; //반환값이 클래스(레퍼런스 타입)
 	}
 	
 	public void run(Shape s) {
