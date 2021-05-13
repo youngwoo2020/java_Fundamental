@@ -1,7 +1,26 @@
 package java_20210512;
 
+
 public class StringDemo {
+	public static String reverse(String str) {
+		String temp = "";
+		for (int i = str.length()-1; i >-1; i--) {
+			
+			temp+=str.substring(i,i+1);
+		} 
+		return temp;
+
+	}
 public static void main(String[] args) {
+	
+	String str = "beautiful";
+	String st5 = reverse(str);
+	System.out.println(st5);
+	
+	
+	
+	
+	
 	
 	String str1 = new String("hello");
 	String str2 = new String("hello");

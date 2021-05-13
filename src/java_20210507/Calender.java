@@ -8,7 +8,7 @@ public class Calender {
 	public static final int THIRTHDAY = 4;
 	public static final int FIRYDAY = 5;
 	public static final int SATURDAY = 6;
-	public static final int SUNDAY = 7;
+	public static final int SUNDAY = 0;
 
 	private boolean isLeafYear(int year) {
 		return (year % 4 == 0 && year % 100 != 0) || year % 400 == 0;
