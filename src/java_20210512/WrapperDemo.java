@@ -29,7 +29,7 @@ public class WrapperDemo {
 		System.out.println(i6);
 		
 		//AUTO BOXING => 프리미티브 데이타 타입이 랩퍼클래스로 변환
-		Integer i7 = 100; //.intValue();가 생략된 것.(버전이 업데이트 되면서 자동 컴파일)
+		Integer i7 = 100; //.IntegerValueOf();가 생략된 것.(버전이 업데이트 되면서 자동 컴파일)
 		Integer i8 = 200;
 		//auto unboxing => wrapper class->primitive
 		int i9 = i7+i8;
