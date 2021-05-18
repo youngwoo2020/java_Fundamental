@@ -1,6 +1,6 @@
 package java_20210517;
 
-public class RunnableDemo_9 implements Runnable{
+public class RunnableDemo implements Runnable{
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub
@@ -13,10 +13,10 @@ public class RunnableDemo_9 implements Runnable{
 	public static void main(String[] args) {
 		System.out.println("=============start================");
 		
-		RunnableDemo_9 r1 = new RunnableDemo_9();
+		RunnableDemo r1 = new RunnableDemo();
 		Thread t1 = new Thread(r1, "첫번째 스레드");
 		t1.start();
-		RunnableDemo_9 r2 = new RunnableDemo_9();
+		RunnableDemo r2 = new RunnableDemo();
 		Thread t2 = new Thread(r2, "두번째 스레드");
 		t2.start();
 		

@@ -3,7 +3,7 @@ package java_20210517;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 
-public class ThrowsDemo1_3 {
+public class ThrowsDemo1 {
 
 	public static void m() throws FileNotFoundException {
 		FileReader fr = new FileReader("");

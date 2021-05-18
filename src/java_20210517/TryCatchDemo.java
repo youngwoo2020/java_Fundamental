@@ -1,6 +1,6 @@
 package java_20210517;
 
-public class TryCatchDemo_2 {
+public class TryCatchDemo {
 	public static double getAvgs(int k, int e) {
 		int sum = k + e;
 		double avg = (double) sum / 2;

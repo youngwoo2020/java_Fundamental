@@ -2,7 +2,7 @@ package java_20210517;
 
 import java.util.ArrayList;
 
-public class ExceptionDemo_1 {
+public class ExceptionDemo {
 public static void main(String[] args) {
 	//java.lang.NumberFormatException = > runtimeException
 	//111a=>예외처리를 해야 함 : 컴파일 단계 시에 에러가 안나는데 실행시에 에러 발생(사용자로부터 자료를 받은 경우)

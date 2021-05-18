@@ -1,6 +1,6 @@
 package java_20210517;
 
-public class ThrowsDemo2_4 {
+public class ThrowsDemo2 {
 
 	public static double getAverage(int[] exam) throws ArrayIndexOutOfBoundsException {
 		int korean = exam[0];
