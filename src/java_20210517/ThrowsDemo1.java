@@ -12,6 +12,7 @@ public class ThrowsDemo1 {
 	public static void m(String path) throws FileNotFoundException {
 		FileReader fr = new FileReader(path);
 	}
+	
 
 	public static void main(String[] args) {
 
