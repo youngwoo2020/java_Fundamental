@@ -8,7 +8,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-public class PrintWriterDemo_4 {
+public class PrintWriterDemo {
 	public static void main(String[] args) {
 		FileReader fr = null;
 		BufferedReader br = null;

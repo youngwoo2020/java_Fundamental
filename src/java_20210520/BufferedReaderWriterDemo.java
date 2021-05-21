@@ -7,7 +7,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class BufferedReaderWriterDemo_3 {
+public class BufferedReaderWriterDemo {
 	public static void main(String[] args) {
 		FileReader fr = null;
 		BufferedReader br = null;

@@ -8,7 +8,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;
 
-public class PrintStreamDemo_1 {
+public class PrintStreamDemo {
 	public static void main(String[] args) {
 		FileInputStream fis = null;
 		BufferedInputStream bis = null;
