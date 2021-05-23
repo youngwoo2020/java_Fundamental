@@ -25,7 +25,7 @@ public static void main(String[] args) throws IOException {
 		System.out.println("path :" + path);
 		System.out.println("query :" + query);
 		System.out.println("ref :" + ref);
-		
+	
 	/*	InputStream in = url.openStream(); //source => img (소스가 꼭 html이 아닐 수 있다 ex. 이미지) 
 		int readByteCount = 0;
 		byte[] readBytes = new byte[1024*8];

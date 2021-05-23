@@ -10,7 +10,7 @@ public class StringDemo {
 		//index는 0부터 시작
 		char c1 = str.charAt(1); 
 		System.out.println(c1);
-		
+	
 		//문자열 연결하는 메서드
 		str = str.concat("123");
 		System.out.println(str);

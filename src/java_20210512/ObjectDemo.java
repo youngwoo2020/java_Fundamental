@@ -1,5 +1,5 @@
 package java_20210512;
-  
+ 
 class Test{
 	String name;
 	Test(String name){

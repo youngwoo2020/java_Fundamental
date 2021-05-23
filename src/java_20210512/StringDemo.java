@@ -1,16 +1,19 @@
 package java_20210512;
 
+import java_20210511.Sub;
 
 public class StringDemo {
 	public static String reverse(String str) {
-		String temp = "";
+		String temp = ""; //바꾸는게 아니라 아무것도 없는 상태에서 뒤 문자부터 점점 쌓는 메서드
 		for (int i = str.length()-1; i >-1; i--) {
 			
 			temp+=str.substring(i,i+1);
 		} 
 		return temp;
-
 	}
+	
+
+
 public static void main(String[] args) {
 	
 	String str = "beautiful";

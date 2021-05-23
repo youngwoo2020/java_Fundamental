@@ -13,10 +13,11 @@ public static void main(String[] args) {
 	String str2 = s2.toString(); //스트링 버퍼가 스트링으로 바꿈
 	System.out.println(str1.equals(str2));
 
-	
+
 	
 	//String 이어서 붙이기
-	StringBuffer sql = new StringBuffer();
+	StringBuffer sql = new StringBuffer("");
+	System.out.println(sql);
 	sql.append("select name, age");
 	sql.append("from member");
 	sql.append("where name = '권영우'");
