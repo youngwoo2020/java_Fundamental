@@ -69,9 +69,7 @@ public class ListDemo {
 		list.add("222");
 		list.add("333");
 		list.add("111");
-
-		for (int i = 0; i < list.size(); i++) {
-			String temp = (String) list.get(i); // 인덱스를 자동으로 선정해줌. 111->인덱스0, 222->인덱스1,,,111->인덱스3
+		for (int i = 0; i < list.size(); i++) {			String temp = (String) list.get(i); // 인덱스를 자동으로 선정해줌. 111->인덱스0, 222->인덱스1,,,111->인덱스3
 			System.out.println(temp);
 		}
 		Product pro = selectByNumber();
