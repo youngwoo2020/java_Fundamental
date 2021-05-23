@@ -16,8 +16,7 @@ public static void main(String[] args) {
 
 	
 	//String 이어서 붙이기
-	StringBuffer sql = new StringBuffer("");
-	System.out.println(sql);
+	StringBuffer sql = new StringBuffer();
 	sql.append("select name, age");
 	sql.append("from member");
 	sql.append("where name = '권영우'");
@@ -28,5 +27,12 @@ public static void main(String[] args) {
 	
 	sql.append("select no, writer from board");
 	System.out.println(sql);
+	
+
+	
+	}
+	
+	
+	
 }
 }
