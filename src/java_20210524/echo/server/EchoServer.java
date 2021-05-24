@@ -37,7 +37,7 @@ public class EchoServer {
 		while (true) { // 무한루프
 			System.out.println("클라이언트 접속을 대기하고 있습니다");
 			try {
-				Socket socket = serverSocket.accept();
+				Socket socket = serverSocket.accept(); 
 				// 4. 클라이언트와 통신할 수 있는 socket 객체가 생성되었다.
 				// 6-2
 				InetAddress i = socket.getInetAddress();
@@ -46,6 +46,7 @@ public class EchoServer {
 				InputStream in = socket.getInputStream();
 				isr = new InputStreamReader(in);
 				br = new BufferedReader(isr);
+				
 				// 6-3
 				OutputStream out = socket.getOutputStream();
 				osw = new OutputStreamWriter(out);
