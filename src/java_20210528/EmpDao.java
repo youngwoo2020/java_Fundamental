@@ -34,7 +34,7 @@ public class EmpDao {
 	}
 	
 	public ArrayList<EmpDto> select(int start, int len){
-		ArrayList<EmpDto> listsss = new ArrayList<EmpDto>();
+		ArrayList<EmpDto> list = new ArrayList<EmpDto>();
 		return list;
 		
 	}
