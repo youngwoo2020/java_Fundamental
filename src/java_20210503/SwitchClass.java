@@ -9,7 +9,8 @@ public class SwitchClass {
 		switch(month) {
 		//case값은 유일해야 한다 but 콤마를 사용해서 연결할 수는 있음
 		case 12 : season = "겨울"; break;
-	
+		case 1 : season = "겨울"; break;
+		case 2 : season = "겨울"; break;	
 		case 3 : season = "봄"; break;
 		case 4 : season = "봄"; break;
 		case 5 : season = "여름"; break;
@@ -22,6 +23,9 @@ public class SwitchClass {
 		default: season ="없는 계절";	
 		}
 		System.out.println(month + "월은" + season +"입니다.");
+		
+		
+
 	}
 
 }
