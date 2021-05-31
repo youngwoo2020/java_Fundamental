@@ -13,7 +13,6 @@ public class BufferedReaderWriterDemo {
 		BufferedReader br = null;
 		FileWriter fw = null;
 		BufferedWriter bw = null;
-
 		try {
 			fr = new FileReader("C:\\dev\\test\\2021\\05\\18\\FileDemo.java");
 			br = new BufferedReader(fr);

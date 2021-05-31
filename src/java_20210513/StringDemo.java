@@ -34,7 +34,7 @@ public class StringDemo {
 		}else {
 			System.out.println("페이지가 존재하지 않습니다.");
 		}
-		
+
 		//equals()=> 문자열 비교
 		//equalsIgnoreCase => 대소문자 비교하지 않음
 		
@@ -97,6 +97,12 @@ public class StringDemo {
 		
 		//StringBuffer => 해쉬코드가 오버라이딩 되어있지 않기 때문에 .equal을 하면 false가 나옴. 
 		
-		
+		String a = String.valueOf(12);
+		if(a=="12") {
+			System.out.println("o");
+		}else {
+			System.out.println("n");
+		}
+	
 	}
 }

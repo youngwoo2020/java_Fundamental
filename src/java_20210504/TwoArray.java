@@ -27,14 +27,14 @@ public class TwoArray {
 		
 		int[] temp = {10,20,30,40,50};
 		for(int value : temp) {
-			System.out.println(value);
+			System.out.print(value);
 		}
 		String[] fruits = {"bananan", "melon","strawberry"};
 		for(String fruit : fruits) {
 			System.out.println(fruit);
 		}
 		
-		
+	
 		
 		
 	}

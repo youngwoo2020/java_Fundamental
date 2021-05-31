@@ -13,7 +13,6 @@ public class ThrowsDemo1 {
 		FileReader fr = new FileReader(path);
 	}
 	
-
 	public static void main(String[] args) {
 
 		String path = args[0];

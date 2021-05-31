@@ -1,9 +1,6 @@
 package java_20210517;
 
-import java.util.Iterator;
-
 public class ThreadDemo extends Thread{//java.lang. *이 원래 생략되어 있기 때문에 쓰레드는 따로 임포트 할 필요없음. 
-	
 
 	public ThreadDemo(String ThreadName) {
 		super(ThreadName);

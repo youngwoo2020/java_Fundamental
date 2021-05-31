@@ -25,7 +25,7 @@ public class PrintStreamDemo {
 			bis = new BufferedInputStream(fis); // stream chaining
 			fos = new FileOutputStream("C:\\dev\\test\\2021\\05\\18\\apache-tomcat-9.0.46-copy1.zip");
 			bos = new BufferedOutputStream(fos); // stream chaining
-
+			
 			// printStream
 			// 1. printStream의 메서드는 IOException을 발생시키지 않는다.
 			// 2. auto flush 기능을 가지고 있음. => 두번빼 인자에 true

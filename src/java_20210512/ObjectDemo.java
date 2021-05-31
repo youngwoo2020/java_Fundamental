@@ -1,5 +1,5 @@
 package java_20210512;
- 
+  
 class Test{
 	String name;
 	Test(String name){
@@ -36,9 +36,12 @@ class Test{
 }
 
 
-
 public class ObjectDemo {	
 	public static void main(String[] args) {
+	
+		
+		
+		
 		Test t1 = new Test("권영우");
 		Test t2 = new Test("권영우");
 		Test t3 = t2;

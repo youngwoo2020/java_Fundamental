@@ -11,9 +11,9 @@ public class FileReaderWriterDemo {
 		FileWriter fw = null;
 
 		try {
-			fr = new FileReader("C:\\dev\\test\\2021\\05\\18\\FileDemo.java");
+			fr = new FileReader("C:\\Users\\User\\javasource\\HelloWorld.java");
 			// true=>이어쓰기 (append) 안쓰면 덮어쓰기됨 (boolean)
-			fw = new FileWriter("C:\\dev\\test\\2021\\05\\18\\FileDemo-copy.java", true);
+			fw = new FileWriter("C:\\Users\\User\\javasource\\HelloWorld1.java");
 
 			/*
 			 * int readChar = 0; // read() : 한개의 문자를 읽는다. while ((readChar = fr.read()) !=

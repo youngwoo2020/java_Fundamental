@@ -11,7 +11,7 @@ import java.io.InputStreamReader;
 
 public class InputStreamReaderDemo {
 	public static void main(String[] args) throws IOException {
-		/*InputStream in = System.in; // source가 키보드인 경우.
+		InputStream in = System.in; // source가 키보드인 경우.
 		byte[] b = new byte[100];
 
 		// read=>consol에서 keyboard에서 엔터를 칠때까지 않읽음. 키보드에 abc친 것이 b(배열)에 저장되어 있음.
@@ -25,8 +25,8 @@ public class InputStreamReaderDemo {
 			System.out.print(message);
 			System.out.print("입력하세요");
 		}
-*/
-		InputStream in = System.in; //키보드로 입력받은 것
+		
+		/*InputStream in = System.in; //키보드로 입력받은 것
 		InputStreamReader isr = new InputStreamReader(in); //바이트 출력 스트림을 문자 출력 스트림으로 바꿔주는 클래스
 		BufferedReader br = new BufferedReader(isr); //한줄단위로 읽고 쓰기 위해
 		
@@ -43,6 +43,6 @@ public class InputStreamReaderDemo {
 			System.out.print("입력하세요");
 			
 		}
-		bw.flush();
+		bw.flush();*/
 	}
 }

@@ -10,3 +10,4 @@ public class ImplementClassDemo {
 		System.out.println(InterA.PI);
 	}
 }
+ 

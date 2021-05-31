@@ -1,6 +1,5 @@
 package java_20210512;
 
-import java_20210511.Sub;
 
 public class StringDemo {
 	public static String reverse(String str) {
@@ -11,7 +10,6 @@ public class StringDemo {
 		} 
 		return temp;
 	}
-	
 
 
 public static void main(String[] args) {
@@ -19,12 +17,6 @@ public static void main(String[] args) {
 	String str = "beautiful";
 	String st5 = reverse(str);
 	System.out.println(st5);
-	
-	
-	
-	
-	
-	
 	String str1 = new String("hello");
 	String str2 = new String("hello");
 	String str3 = "test";

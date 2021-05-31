@@ -6,7 +6,6 @@ public class TryCatchDemo {
 		double avg = (double) sum / 2;
 		return avg;
 	}
-
 public static void main(String[] args) {
 	try {
 		//javac TryCatchDemo.java => compile

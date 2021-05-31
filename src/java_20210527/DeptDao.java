@@ -10,7 +10,6 @@ import java.util.ArrayList;
 public class DeptDao {
 	// singleton으로 만들기
 	private static DeptDao single;
-
 	private DeptDao() {
 		try {
 			Class.forName("org.mariadb.jdbc.Driver");

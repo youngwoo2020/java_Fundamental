@@ -5,7 +5,7 @@ class A{
 		//super();가 숨어있음
 		this.a = a;
 	}
-	
+
 	
 }
 class B extends A{

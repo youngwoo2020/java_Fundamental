@@ -17,9 +17,9 @@ public class PrintWriterDemo {
 		PrintWriter pw = null;
 
 		try {
-			fr = new FileReader("C:\\dev\\test\\2021\\05\\18\\FileDemo.java");
+			fr = new FileReader("C:\\Users\\User\\javasource\\HelloWorld.java");
 			br = new BufferedReader(fr);
-			fw = new FileWriter("C:\\dev\\test\\2021\\05\\18\\FileDemo-copy2.java", true);//이어쓰기(밑의 true와 의미가 다름)
+			fw = new FileWriter("C:\\Users\\User\\javasource\\HelloWorld2.java");//이어쓰기(밑의 true와 의미가 다름)
 			bw = new BufferedWriter(fw);
 			pw = new PrintWriter(bw, true); // auto flush
 			String readLine = null; // 한줄을 읽음
@@ -27,7 +27,6 @@ public class PrintWriterDemo {
 				pw.println(readLine);
 				System.out.println(readLine); // 게행을 해야하기 때문에 ln을 붙여야 함.
 			}
-
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
